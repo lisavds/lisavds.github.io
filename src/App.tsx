@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Mail, MapPin, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 
 export default function HomePage() {
@@ -67,7 +67,7 @@ export default function HomePage() {
               </h1>
               
               <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed mt-8">
-                Expert musculoskeletal care with precision diagnosis and personalized treatment plans.
+                Expert musculoskeletal care with precision diagnosis and personalised treatment plans.
               </p>
               <div className="space-y-4">
                 <Button size="lg" className="bg-[#257dc6] hover:bg-[#1e6ba8] text-white text-lg px-8 py-4">
@@ -161,7 +161,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Common Problems We Treat</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Specialized care for chronic pain and musculoskeletal conditions
+              Specialised care for chronic pain and musculoskeletal conditions
             </p>
           </div>
 
@@ -177,16 +177,12 @@ export default function HomePage() {
               </Card>
             ))}
           </div>
-
-          <Card className="bg-[#257dc6] text-white">
-            <CardHeader className="text-center">
-              <CardTitle className="text-3xl mb-4">Our Approach</CardTitle>
-              <CardDescription className="text-xl text-blue-100">
+            <div className="text-center">
+              <p className="text-xl">
                 Dr Pienaar will work closely with your health providers when putting together a management plan to suit
                 your situation and to ensure the best possible outcome for you.
-              </CardDescription>
-            </CardHeader>
-          </Card>
+              </p>
+            </div>
         </div>
       </section>
 
