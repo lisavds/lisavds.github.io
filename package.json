@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://lisavds.github.io/your-app",
+  "homepage": "http://lisavds.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
