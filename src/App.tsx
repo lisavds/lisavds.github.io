@@ -4,8 +4,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 
-import './index.css'
-
 export default function HomePage() {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [formData, setFormData] = useState({
@@ -25,20 +23,29 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b sticky top-0 z-50">
+      <header className="bg-gradient-to-r from-[#257dc6] via-[#2a87d3] to-[#3092e0] shadow-lg border-b border-white/10 sticky top-0 z-50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/assets/logo.png" alt="EvolveMEd Logo" className="h-10 w-auto" />
+              <img src="/assets/logo.png" alt="EvolveMEd Logo" className="h-10 w-auto drop-shadow-sm" />
             </div>
-            <nav className="flex space-x-8">
-              <a href="#about" className="text-gray-700 hover:text-[#257dc6] transition-colors">
+            <nav className="flex space-x-1">
+              <a 
+                href="#about" 
+                className="text-white/90 hover:text-white hover:bg-white/10 px-4 py-2 rounded-lg transition-all duration-300 ease-in-out font-medium text-sm tracking-wide backdrop-blur-sm border border-transparent hover:border-white/20 hover:shadow-lg"
+              >
                 About
               </a>
-              <a href="#services" className="text-gray-700 hover:text-[#257dc6] transition-colors">
+              <a 
+                href="#services" 
+                className="text-white/90 hover:text-white hover:bg-white/10 px-4 py-2 rounded-lg transition-all duration-300 ease-in-out font-medium text-sm tracking-wide backdrop-blur-sm border border-transparent hover:border-white/20 hover:shadow-lg"
+              >
                 Services
               </a>
-              <a href="#contact" className="text-gray-700 hover:text-[#257dc6] transition-colors">
+              <a 
+                href="#contact" 
+                className="text-white/90 hover:text-white hover:bg-white/10 px-4 py-2 rounded-lg transition-all duration-300 ease-in-out font-medium text-sm tracking-wide backdrop-blur-sm border border-transparent hover:border-white/20 hover:shadow-lg"
+              >
                 Contact
               </a>
             </nav>
@@ -56,6 +63,7 @@ export default function HomePage() {
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight text-gray-900">
                 Welcome to 
                 <span className="block text-[#257dc6]">EvolveMEd</span>
+                {/* <img src="/assets/logo new.png" alt="EvolveMEd Logo" className="h-50 w-auto rounded" /> */}
               </h1>
               
               <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed mt-8">
@@ -103,7 +111,6 @@ export default function HomePage() {
               <p className="text-6xl md:text-7xl lg:text-8xl font-bold text-[#257dc6] tracking-wide">
                 You. Better.
               </p>
-              <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-2 bg-gradient-to-r from-[#257dc6] to-[#3a8dd4] rounded-full"></div>
             </div>
           </div>
         </div>
