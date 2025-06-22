@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 
+import './index.css'
+
 export default function HomePage() {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [formData, setFormData] = useState({
@@ -27,7 +29,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/src/assets/logo.png" alt="EvolveMEd Logo" className="h-10 w-auto" />
+              <img src="/assets/logo.png" alt="EvolveMEd Logo" className="h-10 w-auto" />
             </div>
             <nav className="flex space-x-8">
               <a href="#about" className="text-gray-700 hover:text-[#257dc6] transition-colors">
@@ -77,7 +79,7 @@ export default function HomePage() {
                 <div className="text-center mb-6">
                   <div className="mb-6">
                     <img
-                      src="/src/assets/portrait.jpg"
+                      src="/assets/portrait.jpg"
                       alt="Dr Morné Pienaar"
                       className="w-80 h-80 rounded-full mx-auto object-cover shadow-lg border-4 border-[#257dc6]"
                     />
@@ -115,7 +117,7 @@ export default function HomePage() {
             {/* Left Side - Collage Image */}
             <div>
               <img
-                src="/src/assets/final 2.jpg"
+                src="/assets/final 2.jpg"
                 alt="Dr Morné Pienaar - Practice Collage"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
