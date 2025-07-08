@@ -12,7 +12,7 @@ export default function HeroSection() {
               Welcome to 
               <span className="block lg:text-8xl text-left">
                 Evolve
-                <span className="text-[#257dc6]">ME</span>
+                <span className="text-[#2789d9]">ME</span>
                 d
               </span>
             </h1>
@@ -37,11 +37,11 @@ export default function HeroSection() {
                   <img
                     src="/assets/portrait.jpg"
                     alt="Dr Morné Pienaar"
-                    className="w-64 h-64 rounded-full mx-auto object-cover shadow-lg border-4 border-[#257dc6]"
+                    className="w-64 h-64 rounded-full mx-auto object-cover shadow-lg border-4 border-[#2789d9]"
                   />
                 </div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">Dr Morné Pienaar</h2>
-                <p className="text-base font-semibold text-[#257dc6] mb-1">MUSCULOSKELETAL SPECIALIST</p>
+                <p className="text-base font-semibold text-[#2789d9] mb-1">MUSCULOSKELETAL SPECIALIST</p>
                 <p className="text-sm text-gray-600">MBChB, DiMM, FDRHMNZ, FNZCMM</p>
               </div>
             </div>

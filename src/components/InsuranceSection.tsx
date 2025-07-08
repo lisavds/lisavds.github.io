@@ -10,9 +10,9 @@ export default function InsuranceSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="border-t-4 border-[#257dc6]">
+          <Card className="border-t-4 border-[#2789d9]">
             <CardHeader className="text-center">
-              <CardTitle className="text-[#257dc6] text-xl">ACC Coverage</CardTitle>
+              <CardTitle className="text-[#2789d9] text-xl">ACC Coverage</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
@@ -21,9 +21,9 @@ export default function InsuranceSection() {
             </CardContent>
           </Card>
 
-          <Card className="border-t-4 border-[#257dc6]">
+          <Card className="border-t-4 border-[#2789d9]">
             <CardHeader className="text-center">
-              <CardTitle className="text-[#257dc6] text-xl">Health Insurance</CardTitle>
+              <CardTitle className="text-[#2789d9] text-xl">Health Insurance</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 mb-4">We are affiliated providers for Southern Cross and nib Health partner.</p>
@@ -42,9 +42,9 @@ export default function InsuranceSection() {
             </CardContent>
           </Card>
 
-          <Card className="border-t-4 border-[#257dc6]">
+          <Card className="border-t-4 border-[#2789d9]">
             <CardHeader className="text-center">
-              <CardTitle className="text-[#257dc6] text-xl">Other Insurance</CardTitle>
+              <CardTitle className="text-[#2789d9] text-xl">Other Insurance</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">

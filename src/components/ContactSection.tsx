@@ -32,7 +32,7 @@ export default function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <Card className="h-fit">
             <CardHeader>
-              <CardTitle className="text-2xl text-[#257dc6] flex items-center">
+              <CardTitle className="text-2xl text-[#2789d9] flex items-center">
                 <Mail className="w-6 h-6 mr-2" />
                 Send Us a Message
               </CardTitle>
@@ -43,8 +43,8 @@ export default function ContactSection() {
               </p>
               
               <div className="flex items-center mb-6">
-                <Mail className="w-5 h-5 text-[#257dc6] mr-3" />
-                <a href="mailto:info@evomed.co.nz" className="text-[#257dc6] hover:underline text-lg">
+                <Mail className="w-5 h-5 text-[#2789d9] mr-3" />
+                <a href="mailto:info@evomed.co.nz" className="text-[#2789d9] hover:underline text-lg">
                   info@evomed.co.nz
                 </a>
               </div>
@@ -52,14 +52,14 @@ export default function ContactSection() {
               <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                 <DialogTrigger asChild>
                   <div className="flex justify-center">
-                    <Button className="w-full max-w-xs h-12 text-lg bg-[#257dc6] hover:bg-[#1e6ba8] py-4">
+                    <Button className="w-full max-w-xs h-12 text-lg bg-[#2789d9] hover:bg-[#1e6bb5] py-4">
                       Contact Us
                     </Button>
                   </div>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px]">
                   <DialogHeader>
-                    <DialogTitle className="text-[#257dc6]">Contact EvolveMEd</DialogTitle>
+                    <DialogTitle className="text-[#2789d9]">Contact EvolveMEd</DialogTitle>
                     <DialogDescription>
                       Fill out the form below and we'll get back to you as soon as possible.
                     </DialogDescription>
@@ -78,7 +78,7 @@ export default function ContactSection() {
                         required
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#257dc6] focus:border-transparent"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2789d9] focus:border-transparent"
                         placeholder="Your full name"
                       />
                     </div>
@@ -93,7 +93,7 @@ export default function ContactSection() {
                         required
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#257dc6] focus:border-transparent"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2789d9] focus:border-transparent"
                         placeholder="your.email@example.com"
                       />
                     </div>
@@ -107,7 +107,7 @@ export default function ContactSection() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#257dc6] focus:border-transparent"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2789d9] focus:border-transparent"
                         placeholder="Your phone number"
                       />
                     </div>
@@ -122,7 +122,7 @@ export default function ContactSection() {
                         rows={4}
                         value={formData.message}
                         onChange={handleInputChange}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#257dc6] focus:border-transparent resize-none"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2789d9] focus:border-transparent resize-none"
                         placeholder="Tell us about your condition or how we can help..."
                       />
                     </div>
@@ -135,7 +135,7 @@ export default function ContactSection() {
                       >
                         Cancel
                       </Button>
-                      <Button type="submit" className="flex-1 bg-[#257dc6] hover:bg-[#1e6ba8]">
+                      <Button type="submit" className="flex-1 bg-[#2789d9] hover:bg-[#1e6bb5]">
                         Send Message
                       </Button>
                     </div>
@@ -147,7 +147,7 @@ export default function ContactSection() {
 
           <Card className="h-fit">
             <CardHeader>
-              <CardTitle className="text-2xl text-[#257dc6] flex items-center">
+              <CardTitle className="text-2xl text-[#2789d9] flex items-center">
                 <MapPin className="w-6 h-6 mr-2" />
                 Visit Our Clinic
               </CardTitle>
@@ -155,12 +155,12 @@ export default function ContactSection() {
             <CardContent>
               <div className="space-y-4">
                 <div className="space-y-2 text-gray-700">
-                  <p className="font-semibold text-[#257dc6] text-lg">EvolveMEd</p>
+                  <p className="font-semibold text-[#2789d9] text-lg">EvolveMEd</p>
                   <p>The Mill</p>
                   <p>5 Tulip Lane</p>
                   <p>Remarkable Park</p>
                   <p>Frankton</p>
-                  <p className="font-semibold text-[#257dc6]">QUEENSTOWN</p>
+                  <p className="font-semibold text-[#2789d9]">QUEENSTOWN</p>
                 </div>
                 
                 {/* Google Maps Embed */}
@@ -179,7 +179,7 @@ export default function ContactSection() {
                 
                 <Button
                   variant="outline"
-                  className="w-full border-[#257dc6] text-[#257dc6] hover:bg-[#257dc6] hover:text-white"
+                  className="w-full border-[#2789d9] text-[#2789d9] hover:bg-[#2789d9] hover:text-white"
                   onClick={() => window.open('https://maps.google.com/?q=5+Tulip+Lane,+Frankton,+Queenstown,+New+Zealand', '_blank')}
                 >
                   Open in Google Maps

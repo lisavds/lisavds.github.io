@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-gradient-to-r from-[#257dc6] via-[#2a87d3] to-[#3092e0] shadow-lg border-b border-white/10 sticky top-0 z-50 backdrop-blur-sm">
+    <header className="bg-gradient-to-r from-[#2789d9] via-[#3395e3] to-[#3fa0ed] shadow-lg border-b border-white/10 sticky top-0 z-50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
