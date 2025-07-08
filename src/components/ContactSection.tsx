@@ -51,9 +51,11 @@ export default function ContactSection() {
               
               <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                 <DialogTrigger asChild>
-                  <Button className="w-full bg-[#257dc6] hover:bg-[#1e6ba8] text-lg py-3">
-                    Contact Us
-                  </Button>
+                  <div className="flex justify-center">
+                    <Button className="w-full max-w-xs h-12 text-lg bg-[#257dc6] hover:bg-[#1e6ba8] py-4">
+                      Contact Us
+                    </Button>
+                  </div>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px]">
                   <DialogHeader>

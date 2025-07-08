@@ -31,18 +31,18 @@ export default function HeroSection() {
           {/* Right Side - About Dr Pienaar */}
           <div className="space-y-8">
             {/* About Preview */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-              <div className="text-center mb-6">
-                <div className="mb-6">
+            <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
+              <div className="text-center mb-4">
+                <div className="mb-4">
                   <img
                     src="/assets/portrait.jpg"
                     alt="Dr Morné Pienaar"
-                    className="w-80 h-80 rounded-full mx-auto object-cover shadow-lg border-4 border-[#257dc6]"
+                    className="w-64 h-64 rounded-full mx-auto object-cover shadow-lg border-4 border-[#257dc6]"
                   />
                 </div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">Dr Morné Pienaar</h2>
-                <p className="text-lg font-semibold text-[#257dc6] mb-1">MUSCULOSKELETAL SPECIALIST</p>
-                <p className="text-gray-600">MBChB, DiMM, FDRHMNZ, FNZCMM</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">Dr Morné Pienaar</h2>
+                <p className="text-base font-semibold text-[#257dc6] mb-1">MUSCULOSKELETAL SPECIALIST</p>
+                <p className="text-sm text-gray-600">MBChB, DiMM, FDRHMNZ, FNZCMM</p>
               </div>
             </div>
           </div>

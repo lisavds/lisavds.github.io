@@ -20,7 +20,9 @@ export default function ServicesSection() {
               <div className="flex items-center justify-center w-16 h-16 bg-[#257dc6] text-white rounded-full mb-4 mx-auto">
                 <CheckCircle className="w-8 h-8" />
               </div>
-              <CardTitle className="text-xl text-[#257dc6] mb-4">Consultation & Assessment</CardTitle>
+              <div className="min-h-16 flex items-center justify-center mb-4">
+                <CardTitle className="text-xl text-[#257dc6]">Consultation & Assessment</CardTitle>
+              </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 During your first consultation Dr Pienaar will collect a thorough history of your medical health and background and perform a physical examination that may also include a point of care ultrasound examination.
               </p>
@@ -32,7 +34,9 @@ export default function ServicesSection() {
               <div className="flex items-center justify-center w-16 h-16 bg-[#257dc6] text-white rounded-full mb-4 mx-auto">
                 <CheckCircle className="w-8 h-8" />
               </div>
-              <CardTitle className="text-xl text-[#257dc6] mb-4">Precision Diagnosis</CardTitle>
+              <div className="min-h-16 flex items-center justify-center mb-4">
+                <CardTitle className="text-xl text-[#257dc6]">Precision Diagnosis</CardTitle>
+              </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 We believe in precision diagnosis with the use of high-tech imaging such as MRI, CT scans etc. to then work towards precise diagnosis to guide our treatment.
               </p>
@@ -44,7 +48,9 @@ export default function ServicesSection() {
               <div className="flex items-center justify-center w-16 h-16 bg-[#257dc6] text-white rounded-full mb-4 mx-auto">
                 <CheckCircle className="w-8 h-8" />
               </div>
-              <CardTitle className="text-xl text-[#257dc6] mb-4">Multidisciplinary Treatment</CardTitle>
+              <div className="min-h-16 flex items-center justify-center mb-4">
+                <CardTitle className="text-xl text-[#257dc6]">Multidisciplinary Treatment</CardTitle>
+              </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Our treatment and rehabilitation plan would usually involve multiple Allied Health professionals working towards a common goal to treat your pain.
               </p>
@@ -56,7 +62,9 @@ export default function ServicesSection() {
               <div className="flex items-center justify-center w-16 h-16 bg-[#257dc6] text-white rounded-full mb-4 mx-auto">
                 <CheckCircle className="w-8 h-8" />
               </div>
-              <CardTitle className="text-xl text-[#257dc6] mb-4">Intervention</CardTitle>
+              <div className="min-h-16 flex items-center justify-center mb-4">
+                <CardTitle className="text-xl text-[#257dc6]">Intervention</CardTitle>
+              </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Common sources of pain can be treated by minimal interventional treatment. All our interventions are image guided. We refer and coordinate interventions that we don't offer, including surgery, if needed.
               </p>
