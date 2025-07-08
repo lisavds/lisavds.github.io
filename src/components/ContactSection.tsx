@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Mail, MapPin } from "lucide-react"
+import { Mail, MapPin, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
@@ -42,11 +42,19 @@ export default function ContactSection() {
                 Have questions about our services or want to schedule an appointment? Fill out our contact form and we'll get back to you promptly.
               </p>
               
-              <div className="flex items-center mb-6">
-                <Mail className="w-5 h-5 text-[#2789d9] mr-3" />
-                <a href="mailto:info@evomed.co.nz" className="text-[#2789d9] hover:underline text-lg">
-                  info@evomed.co.nz
-                </a>
+              <div className="space-y-4 mb-6">
+                <div className="flex items-center">
+                  <Mail className="w-5 h-5 text-[#2789d9] mr-3" />
+                  <a href="mailto:info@evomed.co.nz" className="text-[#2789d9] hover:underline text-lg">
+                    info@evomed.co.nz
+                  </a>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="w-5 h-5 text-[#2789d9] mr-3" />
+                  <a href="tel:0204911001" className="text-[#2789d9] hover:underline text-lg">
+                    0204 911 001
+                  </a>
+                </div>
               </div>
               
               <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
